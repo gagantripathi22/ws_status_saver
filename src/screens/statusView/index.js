@@ -15,8 +15,8 @@ export default class StatusView extends Component {
   }
   async savePicture() {
     CameraRoll.save(this.state.status_path, { album: 'Whatsapp Status Saver' })
-    console.log("Image Saved Maybe");
-    ToastAndroid.show("Image Saved In Gallery", ToastAndroid.SHORT);
+    console.log("Image/Video Saved");
+    ToastAndroid.show("Image/Video Saved In Gallery", ToastAndroid.SHORT);
   };
   async sharePicture() {
     Share.open(options);
