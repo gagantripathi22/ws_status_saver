@@ -1,4 +1,4 @@
-package com.ws_status_saver;
+package com.intototech.whatsappstatussaver;
 
 import com.facebook.react.ReactActivity;
 
