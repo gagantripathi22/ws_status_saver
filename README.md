@@ -16,10 +16,15 @@ React Native application that enables users to effortlessly download WhatsApp st
 ## Running the Project
 
 - Clone this project
+  
   `git clone < project-url.git >`
+
   
 - Install dependencies
+  
   `npm install`
+
   
 - Run
+  
   `npm run android`
